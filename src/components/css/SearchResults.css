@@ -1,0 +1,12 @@
+.SearchResults {
+    border-left: 1px solid white;
+
+    padding-top: 0;
+
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 6;
+}
+
+.SearchResults h2 {
+    margin-bottom: 0;
+}

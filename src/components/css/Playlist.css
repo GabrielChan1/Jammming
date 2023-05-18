@@ -1,0 +1,34 @@
+.Playlist {
+    border-right: 1px solid white;
+
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 5;
+}
+
+.Playlist input {
+    margin: 1rem auto 0;
+    width: 80%;
+}
+
+.Playlist h4 {
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 0px 6px;
+    background-color: lawngreen;
+    color: black;
+    
+    margin: 1rem auto;
+    padding: 1rem;
+
+    width: 80%;
+}
+
+.Playlist h4:hover {
+    cursor: pointer;
+}
+
+.Playlist h4:active {
+    box-shadow: 0px 0px;
+
+    margin-top: calc(1rem + 6px);
+}

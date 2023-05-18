@@ -1,0 +1,13 @@
+.Header {
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.Header h1 {
+    color: magenta;
+
+    font-family: "Sigmar", sans-serif;
+}

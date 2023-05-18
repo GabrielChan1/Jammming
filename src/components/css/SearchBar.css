@@ -1,0 +1,42 @@
+.SearchBar {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+
+    padding: 0 5% 5%;
+
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    justify-content: space-around;
+}
+
+.SearchBar h4 {
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 0px 6px;
+    background-color: lawngreen;
+    color: black;
+    
+    margin: 1rem auto calc(1rem + 6px);
+    padding: 1rem;
+
+    width: 80%;
+}
+
+.SearchBar h4:hover {
+    cursor: pointer;
+}
+
+.SearchBar h4:active {
+    box-shadow: 0px 0px;
+
+    margin-top: calc(1rem + 6px);
+    margin-bottom: 1rem;
+}
+
+.SearchBar input {
+    margin: 1rem auto 0;
+
+    width: 80%;
+}

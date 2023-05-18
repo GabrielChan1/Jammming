@@ -1,0 +1,17 @@
+.Track {
+    color: white;
+
+    padding: 0 1.5rem;
+
+    display: flex;
+    text-align: left;
+}
+
+.Track img {
+    object-fit: none;
+    cursor: pointer;
+}
+
+.Track #add {
+    margin-right: 1rem;
+}

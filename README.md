@@ -1,6 +1,8 @@
 # Introduction
 Jammming is a web application that allows the user to search for tracks on Spotify and create and export a playlist to the user's Spotify account. Notable technologies used to build Jammming include Javascript, React and the Spotify API. Access to a Spotify account is also required to use Jammming. The main purpose of Jammming is to demonstrate my capabilities with Javascript, React and sending requests to web APIs.
 
+The application can be accessed [here](https://gabrielchan1.github.io/Jammming/).
+
 # Quick Start
 Jammming consists of three main components: a search bar section, a search results section and a playlist section. 
 

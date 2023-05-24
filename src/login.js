@@ -11,7 +11,7 @@ export default function validate() {
     }
 
     const client_id = '35350f43d74644a9b27f864c6e0c6488';
-    const redirect_uri = 'https://gabrielchan1.github.io/Jammming';
+    const redirect_uri = 'https://superlative-medovik-410381.netlify.app/';
 
     const state = generateRandomString(16);
 
